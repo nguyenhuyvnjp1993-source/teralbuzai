@@ -1,0 +1,25 @@
+# Bản vẽ gốc テラル: không đưa vào git (đồng bộ bằng Google Drive for desktop)
+*.zip
+*.dxf
+*.DXF
+*.pdf
+*.PDF
+# IFC sinh ra: ghi ra ổ cứng, không giữ trong repo
+*.ifc
+*.IFC
+*.ifczip
+out/
+ifc_out/
+# Ảnh chụp danh sách Drive thô (có email chủ sở hữu)
+data/raw/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
