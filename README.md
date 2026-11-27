@@ -9,7 +9,8 @@ Các quyết định đã chốt nằm trong [docs/HANDOFF.md](docs/HANDOFF.md).
 | Thư mục | Nội dung |
 |---|---|
 | `docs/` | HANDOFF, hướng dẫn cài |
-| `tools/` | Script tiện ích (bảng kê Drive...) |
+| `buzai/` | Thư viện: đọc DXF, tách hình chiếu, đo, dựng hình, ghi IFC |
+| `tools/` | Script tiện ích (bảng kê Drive, dựng SJ, vẽ lại, kiểm số) |
 | `tests/` | Kiểm thử |
 | `data/` | Bảng kê, bảng tham số do code trích ra |
 
@@ -50,6 +51,14 @@ python tools/ke_drive.py --dir "G:\My Drive\テラル"
 Trên macOS, id Drive được đọc từ thuộc tính mở rộng của Drive for desktop. Trên Windows cột `drive_id` để trống.
 
 `--so-mong-doi N` làm script thoát mã 1 nếu bảng kê không đúng N file, dùng để đối chiếu với số Drive hiển thị.
+
+## Giai đoạn 1: dựng 部材 dòng SJ
+
+Xem [docs/GIAI_DOAN_1.md](docs/GIAI_DOAN_1.md).
+
+```bash
+python tools/dung_sj.py --zip "<đường dẫn zip>" --ra ifc_out
+```
 
 ## Kiểm thử
 

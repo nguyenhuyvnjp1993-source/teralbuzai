@@ -23,3 +23,5 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+# ngoại lệ: IFC mẫu do Rebro xuất, dùng làm chuẩn so cấu trúc
+!tests/mau_rebro/*.ifc
