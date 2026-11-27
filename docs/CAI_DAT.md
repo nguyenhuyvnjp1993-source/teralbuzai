@@ -26,7 +26,7 @@ Trên macOS thay hai dòng cuối bằng `python3 -m venv .venv` và `source .ve
 pip install -r requirements.txt
 ```
 
-`requirements.txt` gồm `ezdxf` (đọc DXF), `ifcopenshell` (ghi IFC) và `pytest` (chạy kiểm thử). `ifcopenshell` có bản dựng sẵn trên pip (đã thử cài được `ezdxf` 1.4.5 và `ifcopenshell` 0.9.0 trên Python 3.13, ngày 2026-11-27). Nếu pip báo không tìm thấy bản phù hợp với Python của bạn, hãy dùng Python 3.12 hoặc 3.13.
+`requirements.txt` gồm `ezdxf` (đọc DXF), `ifcopenshell` (ghi IFC), `numpy`, `shapely`, `pillow` (đo và dựng hình), `matplotlib` (vẽ lại hình chiếu để so) và `pytest` (chạy kiểm thử). `ifcopenshell` có bản dựng sẵn trên pip (đã thử cài được `ezdxf` 1.4.5 và `ifcopenshell` 0.9.0 trên Python 3.13, ngày 2026-11-27). Nếu pip báo không tìm thấy bản phù hợp với Python của bạn, hãy dùng Python 3.12 hoặc 3.13.
 
 Kiểm tra:
 
